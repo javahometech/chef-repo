@@ -13,4 +13,7 @@
 #     password tom_user['password']
 #   end
 # end
-include_recipe 'git'
+
+file 'demo' do
+ path '/tmp/demo.sh'
+end
